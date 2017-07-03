@@ -1,0 +1,4 @@
+# HookActivityDemo
+本工程主要是通过动态代理实现未注册Activity的启动
+
+PackageManagerInvocationHandler该类是为了兼容AppCompatActivity添加的，如果没有extends AppCompatActivity的话，可以不考虑该类
